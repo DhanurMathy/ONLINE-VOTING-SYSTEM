@@ -1,0 +1,157 @@
+body{ 
+    background-image: url("https://ichef.bbci.co.uk/news/976/cpsprodpb/40E3/production/_106311661_expander_index-03.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    height: 100vh;  
+    width: 100%;
+}
+#imagecss{
+    padding:10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 30%;
+}
+#headerSection{
+    padding: 10px;
+}
+#headerSection h1{
+    font-family: sans-serif;
+}
+input{
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+#dropbox{
+    padding: 10px;
+    border-radius: 5px;
+    width: 13%;
+}
+#loginbtn{
+    padding: 7px;
+    font-size:15px ;
+    border-radius: 5px;
+    background-color:rgb(0, 136, 255) ;
+    color: beige;
+    cursor: pointer;
+
+}
+
+#imagepart{
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 10px;
+    width:26%;
+    color:white;
+    
+}
+#role{
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 10px;
+    width:26%;
+    color: white;
+}
+#role.select{
+    border-radius: 5px;
+    padding: 10px;
+}
+#selectbtn{
+    padding: 7px;
+    font-size:15px ;
+    border-radius: 5px;
+    background-color:rgb(0, 136, 255) ;
+    color: beige;
+    cursor: pointer;
+    
+
+}
+.image{
+    background-image: url("https://ichef.bbci.co.uk/news/976/cpsprodpb/40E3/production/_106311661_expander_index-03.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    filter: blur(0.5);
+    z-index: -1;
+}
+@media(max-width:640px){
+    #bodySection{
+transform: translateX(-25%);
+    }
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 90%;
+    align-items: center;
+    padding: 20px 100px;
+    justify-content: space-between;
+    z-index: 99;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.logo-hd{
+    background-image: url("../img/image.png");
+    width: 100px;
+    height: 30px;
+}
+#backbtn{
+    padding:5px;
+    font-size: 15px;
+    background-color:#349000;
+    color:white;
+    border-radius:5px;
+    float:left;
+    cursor: pointer;
+    margin: 10px;
+    
+}
+#logoutbtn{
+    padding:5px;
+    font-size: 15px;
+    background-color:#349000;
+    color:white;
+    border-radius:5px;
+    float:right;
+    cursor: pointer;
+    margin: 10px;
+}
+#Profile{
+    color: rgb(10, 14, 18);
+    background-color: #ffffff;
+    width: 30%;
+    padding: 30px;
+    float: left;
+}
+#Group{
+    color: rgb(11, 12, 12);
+    background-color: #ffffff;
+    width: 60%;
+    padding: 30px;
+    float: right;
+}
+#votebtn{
+    padding:5px;
+    font-size: 15px;
+    background-color:#349000;
+    color:white;
+    border-radius:5px;
+    float:left;
+    cursor: pointer;
+}
+#mainpanel{
+    padding: 10px;
+}
+#vote{
+    padding:5px;
+    font-size: 15px;
+    background-color:#0a50e9;
+    color:white;
+    border-radius:5px;
+    float:left;
+}
+
+

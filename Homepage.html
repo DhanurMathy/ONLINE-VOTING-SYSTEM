@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple HTML HomePage</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+    body {
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    /* CSS for header */
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #f5f5f5;
+    }
+
+    .header .logo {
+      font-size: 30px;
+      font-family: 'Sriracha', cursive;
+      color: #000;
+      text-decoration: none;
+      margin-right: 58%;
+    }
+
+    .nav-items {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color: #f5f5f5;
+      margin-right: 20px;
+    }
+
+    .nav-items a {
+      text-decoration: none;
+      color: #000;
+      padding: 35px 20px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    /* CSS for main element */
+    .intro {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 520px;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("https://i.pinimg.com/564x/40/0a/7a/400a7a4ed35c8e7e847d9a105fbf098a.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .intro h1 {
+      font-family: sans-serif;
+      font-size: 60px;
+      color:whitesmoke;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin: 0;
+    }
+
+    .intro p {
+      font-size: 18px;
+      color:white;
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      padding: 20px ;
+    }
+    .intro button {
+      background-color: #5edaf0;
+      color: #000;
+      padding: 10px 25px;
+      border: none;
+      border-radius: 5px;
+      font-size: 20px;
+      font-weight: bold;
+      cursor: pointer;
+      box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.4)
+    }
+
+    
+
+    .about-me {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 80px;
+      border-top: 2px solid #eeeeee;
+    }
+
+    .about-me img {
+      width: 500px;
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .about-me-text h2 {
+      font-size: 50px;
+      color: black;
+      text-transform: uppercase;
+      margin: 0;
+    }
+
+    .about-me-text p {
+      font-size: 20px;
+      color: black;
+      margin: 10px 0;
+    }
+
+    /* CSS for footer */
+    .footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #302f49;
+      padding: 40px 80px;
+    }
+
+    .footer .copy {
+      color: #fff;
+    }
+
+    .quote{
+      text-align: center;
+      font-weight: bolder;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      color:aquamarine;
+      margin-right: 20%;
+      text-transform: uppercase;
+    }
+   
+  </style>
+</head>
+
+<body>
+  <header class="header">
+    <img src="https://i.pinimg.com/736x/aa/77/36/aa7736ecea382553ff5c29e831cbe067.jpg" alt="" height="90" width="90" style="border-radius: 50px;"/><a href="#" class="logo">Vote Right</a>
+    <nav class="nav-items">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="/online voting system/portfolio/index.html">Login/Register</a>
+    </nav>
+  </header>
+  <main>
+    <div class="intro">
+      <h1>Online Voting System</h1>
+      <p>The Online Voting System is a web-based platform designed to facilitate the process of voting in a secure, efficient, and accessible manner.<br> This system leverages modern web technologies to enable voters to cast their votes from anywhere with an internet connection, making the voting process more convenient and inclusive. <br>By replacing traditional paper ballots with electronic voting, this system aims to reduce the time, cost, and logistical challenges associated with conducting elections.</p>
+      <p>The Online Voting System represents a significant advancement in the way elections are conducted.<br> By utilizing cutting-edge technology to streamline the voting process, this system offers a secure, efficient, and accessible alternative to traditional voting methods.<br><br> With its robust features and user-friendly interface, the Online Voting System has the potential to increase voter participation and trust in the electoral process, paving the way for more democratic and inclusive elections.</p>
+      <button onclick="location.href='/online voting system/portfolio/index.html'">Login/Register</button>
+    </div>
+  
+    <div class="about-me">
+      <div class="about-me-text">
+        <h2>About </h2>
+        <p>Electronic voting technology intends to speed the counting of ballots, reduce the cost of paying staff to count votes manually and can provide improved accessibility for disabled voters. Also in the long term, expenses are expected to decrease.Results can be reported and published faster.<br><br> Voters save time and cost by being able to vote independently from their location. This may increase overall voter turnout. The citizen groups benefiting most from electronic elections are the ones living abroad, citizens living in rural areas far away from polling stations and the disabled with mobility impairments</p>
+      </div>
+      <img src="https://i.pinimg.com/564x/63/a0/84/63a084d279bbc574861f4ad3db75fcd3.jpg" alt="me">
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="copy">&copy; All rights reserved</div>
+    <div class="quote"><p>  Never Miss an Opportunity to vote as it is our contribution to our Country.</p></div>
+    
+    
+  </footer>
+</body>
+
+</html>
